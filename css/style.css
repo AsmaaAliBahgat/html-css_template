@@ -1,0 +1,209 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+.header{
+    background-image: url(../img/8180392.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    overflow: hidden;
+    background-color: rgba(41, 27, 9, 0.7);
+    position:fixed;
+    left: 0;
+    width: 100%;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.clear{
+    clear: both;
+}
+ .header-content ul{
+    list-style: none;
+    float: right;
+}
+ .header-content ul li{
+    display: inline-block;
+}
+ .header-content ul li a{
+    color: #CC6600;
+    text-decoration: none;
+    display: block;
+    padding: 18px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 1s;
+}
+.header-content ul li a:hover{
+    border-bottom: 5px solid #CC6600;
+}
+.container2{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 30vw;
+    text-align: center;
+   
+}
+.bg-header1{
+    background-color: rgba(34, 31, 27, 0.5);
+    border-radius: 5px;
+    font-size: 25px;
+    color: white;
+    margin-bottom: 20px;
+}.bg-header2 {
+    background-color: rgba(34, 31, 27, 0.5);
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+.bg-header3{
+    background-color: rgba(34, 31, 27, 0.5);
+    border-radius: 5px;
+    font-size: 20px;
+    color: #CC6600;
+    width: 200px;
+    vertical-align: middle;
+    margin: auto;
+    transition: 1s;
+}
+.fas{
+    width: 20px;
+    height: 20px;
+    color: #CC6600;
+    margin: 5px;
+}
+.bg-header3:hover{
+    color: white;
+}
+.menu{
+    background-image: url(../img//уютная-композиция-осени-служебный-стол-для-женщин-сушеные-осенние-161328607.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 130vh;
+}
+.title{
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 20%;
+    margin: auto;
+    font-size: 40px;
+    font-weight: 500;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+.menu-right , .menu-left{
+    width: 35%;
+    float: left;
+    margin: auto;
+    background-color: rgba(34, 31, 27, 0.5);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.menu-right{
+    float: right;
+}
+
+.item img{
+    width: 35%;
+    height: 110px;
+    border-radius: 2px;
+
+}
+.item-content{
+    display: inline-block;
+    vertical-align:top;
+    padding: 40px 10px;
+    color: white;
+    font-size: large;
+}
+.item-content h4{
+    color: #CC6600;
+}
+.About{
+    background-image: url(../img/about1.jpg);
+    background-repeat:repeat-x;
+    background-attachment: fixed;
+    background-size:auto;
+    height: 90vh;
+}
+.About-content{
+    width: 40%;
+    margin: auto;
+    background-color: rgba(180, 134, 98 , 0.6);
+    height: 70vh;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.About-content .disc{
+   padding-top: 90px;
+   text-align: center;
+   line-height: 25px;
+}
+h3{
+    color: #CC6600;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+.Contact{
+    background-image: url(../img/pexels-photo-4939930.jpeg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    height: 100vh;
+}
+.conact-right ,.contact-left{
+    width: 50%;
+    height: 90vh;
+    float: left;
+    margin: auto;
+    background-color:rgba(255, 255, 255, 0.7);
+    padding: 30px 50px;
+    border-radius: 5px;
+    
+}
+iframe{
+    margin-top: 20px;
+    height: 300px;
+    width: 90%;
+}
+.contact-left{
+    background-color:rgba(34, 31, 27, 0.5);
+    float: right;
+    width: 40%;
+    padding-top: 70px;
+}
+input , textarea{
+    width: 90%;
+    height: 50px;
+    color:white;
+    border: none;
+    margin: 20px ;
+    background-color: rgba(14, 13, 13, 0.7);
+    border: none;
+    transition: 0.7s;
+}
+textarea{
+    height: 100px;
+}
+input:hover , textarea:hover{
+    border-bottom: 4px solid #7e4309;
+}
+button{
+    width: 25%;
+    height: 50px;
+    background-color: #7e4309;
+    color: black;
+    border-radius: 5px;
+}
